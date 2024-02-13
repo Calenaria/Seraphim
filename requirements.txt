@@ -1,0 +1,13 @@
+python-socketio
+python-dotenv
+pika
+sqlalchemy
+requests
+websocket-client
+aiohttp
+pymysql
+cryptography
+python-systemd
+bs4
+xmltodict
+discord

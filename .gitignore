@@ -1,0 +1,14 @@
+# sensitive
+.env*
+.ssl
+
+# python
+.venv
+.mypy_cache
+__pycache__
+
+# vs extention
+.history
+
+# temporary data
+storage

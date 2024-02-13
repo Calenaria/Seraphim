@@ -1,0 +1,14 @@
+version: "3"
+services:
+  seraphim-amqp:
+    image: rabbitmq:3.12.4-management
+    container_name: seraphim_amqp
+    ports:
+      - "5682:5672"
+      - "15682:15672"
+    networks:
+      - seraphim-network
+
+networks:
+  seraphim-network:
+    driver: bridge
